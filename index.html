@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <title>Новый быт</title>
+</head>
+<body class="body">
+
+
+    <!-- Шапка -->
+    <header class="header" id="header">
+        
+        <div class="header__logo">
+            <a class="header__logo-link" href="index.html"><img src="img/logo.svg" alt="logo" class="header__logo-img"></a> 
+        </div>
+        <div class="header__menu">
+            <ul class="header__menu-list">
+                <li class="list"><a href="#section__title" class="list__link">о товаре</a></li>
+                <li class="list"><a href="#section__img" class="list__link">преимущества</a></li>
+                <li class="list"><a class="list__link" href="#section_price">цены</a></li>
+                <li class="list"><a href="#section__feedback" class="list__link">оценки</a></li>
+            </ul>
+        </div>
+        <div class="header__button">
+            <a class="header__button-link" href="#section__buy">Заказать</a>
+        </div>
+    
+    </header>
+    <main class="main" >
+
+        <!-- Кнопка "ВВЕРХ" -->
+<div class="scrool-Btn" id="scroolBLT">
+    <a href="#header">
+    <img src="img/strelka.svg" alt="стрелка">
+</a>
+</div>
+
+        <!-- Секция "О товаре"-->
+        <section class="section" id="section__title">
+        <div class="container-ptoduct" >
+            <div class="container__title">
+                <h2>Описание новинки</h2>
+                <p class="container__text-text">
+               Новое, недорогое, отечественное решение для облегчения быта граждан страны, а так же возможное использование в промышленных предприятиях- много функциональная стиральная машина "Ракета", разработанная в конструкторском бюро завода, который носит торговый знак "Новый быт", а так же сам является производителем устройства.
+            </p>
+        </div>
+            <div class="container__img-stir">
+                <img src="img/mashina stir.svg" alt="стиральная машина">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Секция Плюсы -->
+        <section class="section" id="section__img">
+            <h2 class="section__title">Главные плюсы</h2>
+        <div class="container">
+            
+            <div class="container__img" id="imgPluses">
+                <img src="img/oborots.svg" alt="Обороты">
+            </div>
+            <div class="container__features">
+                <h4>Широкий выбор оборотов</h4>
+                <p>На панели настроек можно выбрать скорость барабана от 500 до 1200 оборотов в минуту в зависимости от требований  </p>
+            </div>
+        </div>
+        <div class="container" id="container__img">
+            <div class="container__features">
+                <h4>Выбор температуры</h4>
+                <p> Материалы стираемых тканей бывают разные. Некоторые требуют более высокой, другие более низкой температуры стирки для наиболее качественного выведения пятен. И возможность выбора температуры так же доступна на панели настроек. От 30 до 80 гразусов цельсия.  </p>
+            </div>
+            <div class="container__img" id="imgPluses2">
+                <img src="img/temperature.svg" alt="Температура" >
+            </div>
+        </div>
+        <div class="container" id="container__img">
+            <div class="container__img" id="imgPluses3">
+                <img src="img/modes.svg" alt="Режимы">
+            </div>
+            <div class="container__features">
+                <h4>3 режима работы</h4>
+                <p> Если машина недогружена, она может потреблять меньше воды, при включенном режиме "неполная закгузка", но при этом, если белье или одежда сильно влажные, всегджа можно ключить режим "дополнительного отжима", а в слчае остатков мыла, "дополнительное плоскание" </p>
+            </div>
+        </div>
+        <div class="container" id="container__img">
+            <div class="container__features">
+                <h4> Точная настройка времени</h4>
+                <p> По загруженности машины и загрязнения белья, на панели можно выбрать время от 10 до 60 минут </p>
+            </div>
+            <div class="container__img" id="imgPluses4">
+                <img src="img/time.svg" alt="Время">
+            </div>
+        </div>
+    </section>
+<!-- Секция ценников -->
+<section class="section" id="section_price">
+    <div class="container__price">
+    <table class="container__price_table">
+        <thead class="container__price_table-header" >
+            <tr class="table-header-stroke">
+                <th class="table-header-point" colspan="3">Варианты моделей:</th>
+            </tr>
+        </thead>
+        <tbody class="container__price_table-body">
+            <tr class="table-body-stroke-title">
+                <th class="table-body-point">Модель</th>
+                <th class="table-body-point">Макс. объем загрузки</th>
+                <th class="table-body-point">Цена</th>
+            </tr>
+            <tr class="table-body-stroke">
+                <td class="table-body-point" id="stroke1">M1</td>
+                <td class="table-body-point" id="stroke1">4кг</td>
+                <td class="table-body-point price" id="price1">12000р</td>
+            </tr>
+            <tr class="table-body-stroke">
+                <td class="table-body-point" id="stroke2">M2</td>
+                <td class="table-body-point" id="stroke2">6кг</td>
+                <td class="table-body-point price" id="price2">16000р</td>
+            </tr>
+            <tr class="table-body-stroke">
+                <td class="table-body-point" id="stroke3">M3</td>
+                <td class="table-body-point" id="stroke3">8кг</td>
+                <td class="table-body-point price" id="price3">20000р</td>
+            </tr>
+            <tr class="table-body-stroke">
+                <td class="table-body-point" id="stroke4">M4</td>
+                <td class="table-body-point" id="stroke4">10кг</td>
+                <td class="table-body-point price" id="price4">24000р</td>
+            </tr>
+            <tr class="table-body-stroke">
+                <td class="table-body-point" id="stroke5">M5</td>
+                <td class="table-body-point" id="stroke5">12кг</td>
+                <td class="table-body-point price" id="price5">28000р</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</section>
+
+
+    <!-- Секция оценок -->
+    <section class="section" id="section__feedback">
+        <h2 class="section__title">Оценки экспертов</h2>
+        <div class="container__feedback">
+            <div class="container__feedback_user" id="feedback2">
+                <div class="container__feedback_user-name">
+                <div class="container__feedback_user-avatar">
+                    <img src="img/patent.svg" alt="Аватарка" class="avatar">
+                </div>
+                <div class="container__feedback_user-text">
+                    <h6>Петентное бюро</h6>
+                    <p>Мы признаем качество данной продукции на должном уровне</p>
+                </div>
+            </div>
+                <div class="container__feedback_user-stars">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars0" id="stars0">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars1" id="stars1">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars2" id="stars2">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars3" id="stars3">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars4" id="stars4">
+                </div>
+            </div>
+            <div class="container__feedback_user" id="feedback">
+                <div class="container__feedback_user-name">
+                <div class="container__feedback_user-avatar">
+                    <img src="img/IIAP.svg" alt="Аватарка" class="avatar">
+                </div>
+                <div class="container__feedback_user-text">
+                    <h6>Институт Инноваций и Права</h6>
+                    <p>Техника действительно хороша и конкурентноспособна</p>
+                </div>
+            </div>
+                <div class="container__feedback_user-stars">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars0" id="stars5">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars1" id="stars6">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars2" id="stars7">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars3" id="stars8">
+                    <img src="img/starsPol.svg" alt="зведа" class="stars4" id="stars9">
+                </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Секция заказа -->
+    <section class="section__buy" id="section__buy">
+        <div class="container__buy">
+        <h2 class="section__title buy">Закажите стиральню машину "Ракета" прямо сейчас</h2>
+        <div class="container__buy_box-form">
+        <form class="container__buy_form">
+                <input class="container__buy_form-input" type="text" placeholder="Имя" required>
+                <input class="container__buy_form-input" type="text" placeholder="Фамилия" required>
+                <input class="container__buy_form-input" type="text" placeholder="Отчество (при наличии)">
+                <input class="container__buy_form-input" type="tel" placeholder="Ваш номер телефона" required>
+                <button class="container__buy_form-button" type="submit">Отправить</button>
+        </form>
+        <img src="img/mashina stir buy.svg" class="container__buy_box-img" alt="стиральная машина">
+    </div>
+    </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <a class="footer__logo-link" href="index.html"><img src="img/logo.svg" alt="logo" class="footer__logo-img"></a> 
+        </div>
+        <div class="footer__network">
+            <ul class="footer__network-list">
+                <li class="list"><a href="#" class="list__link"><img src="img/vk.svg" alt="vk" class="list__link-icon"></a></li>
+                <li class="list"><a href="#" class="list__link"><img src="img/ok.svg" alt="ok" class="list__link-icon"></a></li>
+                <li class="list"><a href="#" class="list__link"><img src="img/tg.svg" alt="tg" class="list__link-icon"></a></li>
+            </ul>
+        </div>
+        <div class="footer__information">
+            <ul class="footer__information-list">
+                <li class="list"><h4>О нас:</h4></li>
+                <li class="list">Почта: stiralkaNovByt@mail.ru</li>
+                <li class="list">Телефон: +7(942) 642-27-12</li>
+                <li class="list">Адрес: г Екатеринбург, пр-кт Космонавтов, д 275</li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- JS код -->
+    <script>
+        // Переменные
+        const strela = window.document.querySelector('#scroolBLT');
+        const feedback = window.document.querySelector('#feedback');
+        const feedback2 = window.document.querySelector('#feedback2');
+        const stars0 = window.document.querySelector('#stars0');
+        const stars1 = window.document.querySelector('#stars1');
+        const stars2 = window.document.querySelector('#stars2');
+        const stars3 = window.document.querySelector('#stars3');
+        const stars4 = window.document.querySelector('#stars4');
+        const stars5 = window.document.querySelector('#stars5');
+        const stars6 = window.document.querySelector('#stars6');
+        const stars7 = window.document.querySelector('#stars7');
+        const stars8 = window.document.querySelector('#stars8');
+        const stars9 = window.document.querySelector('#stars9');
+        const pluses= window.document.querySelector('#imgPluses');
+        const pluses2= window.document.querySelector('#imgPluses2');
+        const pluses3= window.document.querySelector('#imgPluses3');
+        const pluses4= window.document.querySelector('#imgPluses4');
+        let active = 1;
+        let active2 = 1;
+
+
+        // ****************функции***************
+
+
+        // анимация отзывов
+        function animationFeedback() {
+            feedback.style.animationName = "feedback";
+            const time = setTimeout(() => {
+                feedback2.style.animationName = "feedback";
+            }, 1000)
+        }
+
+
+        function animationPlses() {
+            pluses.style.animationName = "plusesAnim";
+            const time=setTimeout(()=>{
+                pluses2.style.animationName = "plusesAnim";
+            },500)
+            const time1=setTimeout(()=>{
+                pluses3.style.animationName = "plusesAnim";
+            },1000)
+            const time2=setTimeout(()=>{
+                pluses4.style.animationName = "plusesAnim";
+            },1500)
+            
+        
+        
+        }
+        
+
+        function animationArrow() {
+            strela.style.display = "block";
+            strela.style.animationName = "moveforward";
+        }
+
+
+
+
+
+        function animationStars() {
+            const time1 = setTimeout(() => {
+            stars0.style.animationName = "starsAnim";
+            const time1 = setTimeout(() => {
+                stars1.style.animationName = "starsAnim";
+            }, 200)
+            const time2 = setTimeout(() => {
+                stars2.style.animationName = "starsAnim";
+            }, 400)
+            const time3 = setTimeout(() => {
+                stars3.style.animationName = "starsAnim";
+            }, 600)
+            const time4 = setTimeout(() => {
+                stars4.style.animationName = "starsAnim";
+            }, 800)
+        }, 1000)
+                stars5.style.animationName = "starsAnim";
+            const time5 = setTimeout(() => {
+                stars6.style.animationName = "starsAnim";
+            }, 200)
+            const time6 = setTimeout(() => {
+                stars7.style.animationName = "starsAnim";
+            }, 400)
+            const time7 = setTimeout(() => {
+                stars8.style.animationName = "starsAnim";
+            }, 600)
+            const time8 = setTimeout(() => {
+                stars9.style.animationName = "starsAnim";
+            }, 800)
+
+    }
+
+
+
+
+
+        // проверка скрола
+        window.addEventListener('scroll', function () {
+            let scrollPos = window.scrollY;
+            animationPlses();
+            if (scrollPos > 1000) {
+                animationStars();
+                if (active2 == 1 && active == 1) {
+                    animationArrow();
+                    animationFeedback();
+                }
+                strela.style.display = "block";
+                strela.style.animationName = "moveforward";
+            }else if(scrollPos>=0){
+                strela.style.animationName = "moveNext";
+
+            }
+        });
+
+
+
+
+
+        feedback.addEventListener('mouseover', function () {
+            feedback.style.animationName = "none";
+            feedback2.style.animationName = "none";
+            active = 0;
+        });
+        feedback.addEventListener('mouseout', function () {
+            active = 1;
+        });
+
+
+
+
+        feedback2.addEventListener('mouseover', function () {
+            feedback2.style.animationName = "none";
+            feedback.style.animationName = "none";
+            active2 = 0;
+        });
+        feedback2.addEventListener('mouseout', function () {
+            active2 = 1;
+        });
+
+
+    </script>
+</body>
+</html>
+
+<!-- .container__feedback_user:hover{
+    box-shadow: var(--Color-shadow-table) 0px 0px 55px 0px;
+
+
+    padding: 1vw;
+} -->
+
+
+
+<!-- https://proweb63.ru/help/js/smooth-scroll-by-js
+
+
+https://ru.hexlet.io/qna/javascript/questions/kak-otslezhivat-skroll-js
+-->
