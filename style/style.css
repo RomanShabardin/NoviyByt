@@ -110,7 +110,7 @@ html{
     }
     50%{
         width: 95%;
-        box-shadow: var(--Color-shadow-table) 0px 0px 55px 10px;
+        box-shadow: var(--Color-shadow-table) 0px 0px 20px 4px;
     }
     100%{ 
         width: 95%;
@@ -159,7 +159,7 @@ html{
         filter: none
     }
     50%{
-        filter: drop-shadow(0px 0px 30px var(--Color-shadow-table));
+        filter: drop-shadow(0px 0px 10px var(--Color-shadow-table));
     }
 
     100%{
@@ -171,7 +171,7 @@ html{
 
 /* Обводка для картинок */
 .container__buy_box-img:hover, .container__img-stir:hover, .container__img:hover {
-    filter: drop-shadow(0px 0px 30px var(--Color-shadow-table));
+    filter: drop-shadow(0px 0px 20px var(--Color-shadow-table));
 }
 
 
@@ -355,6 +355,7 @@ html{
     display:flex;
     align-items: center;
     width: 70%;
+    height: 10vw;
 }
 .container__feedback_user-stars{
    display: flex;
@@ -589,7 +590,7 @@ html{
 
 
 /* Смартфоны и небольшие планшеты */
-@media only screen and (min-width :100px) and (max-width:1023px){
+@media only screen and (min-width :380px) and (max-width:1023px){
     /* Общее */
     .section{
         padding: 0 2vw;
@@ -692,7 +693,7 @@ html{
 .container__feedback_user{
     height: 15vw;
     display: block;
-    padding-top: 2.5vw;
+    padding-top: 5vw;
     border-radius: 5vw;
 }
 
@@ -706,7 +707,7 @@ html{
 
 
 .container__feedback_user-avatar{
-    width: 14%;
+    width: 17%;
 }
 .avatar{
     margin-right: 1vw;
@@ -743,12 +744,218 @@ html{
     width: 70%;
 }
 .container__buy_form-input{
-    font-size: 3vw;
+    font-size: 4vw;
     width: 97%;
 }
 
 .container__buy_form-button{
-    font-size:3vw;
+    font-size:4vw;
+}
+
+
+
+/* Футер */
+
+.footer{
+    display: block;
+}
+.footer__logo{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+.footer__network{
+    margin: 0;
+
+}
+
+.footer__network-list{
+     margin: 0 auto;
+     padding: 0;
+     gap: 2vw;
+     margin-right: 30vw;
+}
+.list__link-icon{
+   width: 9vw;
+}
+.footer__information-list{
+    text-align: center;
+    margin-bottom: 10vw;
+    padding: 0;
+}
+
+
+.list__link-icon{
+    margin: 0 auto;
+}
+}
+
+@media only screen and (min-width :100px) and (max-width:379px){
+    /* Общее */
+    .section{
+        padding: 0 2vw;
+    }
+    .section__title{
+        font-size: 7vw;
+    }
+    .list{
+        font-size: 3vw;
+    }
+    
+
+
+
+/* Кнопка "ВВЕРХ" */
+.scrool-Btn{ 
+    width:12vw;
+    height: 12vw;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+
+
+    /* Шапка */
+
+.header{
+    width: 90%;
+    display: block;
+}
+.header__logo{
+    width: 40%;
+    margin: 0 auto;
+}
+.header__menu-list{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2vh;
+    gap: 1vw;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.header__button{
+    text-align: center;
+}
+.header__button-link{
+    padding: 2vw;
+    font-size: 4vw;
+}
+
+.list{
+   margin: 0 auto;
+   font-size: 4.5vw;
+}
+
+
+
+
+/* секция о товаре */
+.container-ptoduct{
+    font-size: 4.5vw;
+    display: block;
+    
+}
+.container__title{
+    width: 100%;
+    margin: 0 auto;
+}
+.container__img-stir{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/* Секция о плюсах */
+.container{
+    font-size: 4.5vw;
+}
+.container__img{
+    width: 40%;
+    margin-right: 2vw;
+}
+.container__features{
+    font-size: 4.5vw;
+}
+
+
+
+/* Секция ценников */
+.container__price_table{
+    font-size: 4.5vw;
+}
+
+
+
+/* секция оценок */
+
+.container__feedback_user{
+    height: 37vw;
+    display: block;
+    padding-top: 2.5vw;
+    border-radius: 5vw;
+}
+
+.stars0, .stars1, .stars2, .stars3, .stars4{
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    left: 18vw;
+    bottom: -7vw;
+}
+
+
+.container__feedback_user-avatar{
+    width: 35%;
+}
+.avatar{
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+.container__feedback_user-name{
+    width: 100%;
+    padding-top: 10vw;
+}
+.container__feedback_user-text, .container__feedback_user-text h6{
+    font-size: 4vw;
+}
+
+
+
+
+
+
+/* секция заказа */
+.buy{
+    font-size: 4vw;
+}
+
+.container__buy{
+    width: 90%;
+}
+.container__buy_box-form{
+    display: block;
+}
+.container__buy_form{
+    margin: 0 auto;
+    width: 100%;
+}
+.container__buy_box-img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.container__buy_form-input{
+    font-size: 4.5vw;
+    width: 94%;
+    padding: 2vw;
+}
+
+.container__buy_form-button{
+    font-size:4.5vw;
+    padding: 2vw;
+    border-radius: 2vw;
 }
 
 
