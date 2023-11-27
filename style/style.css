@@ -86,20 +86,20 @@ html{
 /* анимации */
 @keyframes moveNext{
     0% {
-        right: 1vw;
+        right: 1.5vw;
     }
     100% {
-        right: -10vw;
+        right: -15vw;
     }
 }
 
 
 @keyframes moveforward{
     0% {
-        right: -10vw;
+        right: -15vw;
     }
     100% {
-        right: 1vw;
+        right: 1.5vw;
     }
 }
 
