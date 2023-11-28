@@ -618,7 +618,7 @@ html{
     /* Шапка */
 
 .header{
-    width: 90%;
+    width: 100%;
     display: block;
 }
 .header__logo{
@@ -628,7 +628,8 @@ html{
 .header__menu-list{
     text-align: center;
     width: 100%;
-    margin-bottom: 5vh;
+    margin-bottom: 9vw;
+    margin-top: 5vw;
     gap: 1vw;
     flex-wrap: nowrap;
     padding: 0;
@@ -638,13 +639,13 @@ html{
     text-align: center;
 }
 .header__button-link{
-    padding: 1vw;
-    font-size: 4vw;
+    padding: 2vw;
+    font-size: 5vw;
 }
 
 .list{
    margin: 0 auto;
-   font-size: 4vw;
+   font-size: 5vw;
 }
 
 
@@ -683,7 +684,8 @@ html{
 
 /* Секция ценников */
 .container__price_table{
-    font-size: 3vw;
+    margin-top: 10vw;
+    font-size: 4vw;
 }
 
 
@@ -695,6 +697,7 @@ html{
     display: block;
     padding-top: 5vw;
     border-radius: 5vw;
+    padding: 5vw 3vw 0 3vw;
 }
 
 .stars0, .stars1, .stars2, .stars3, .stars4{
@@ -707,7 +710,7 @@ html{
 
 
 .container__feedback_user-avatar{
-    width: 17%;
+    width: 20%;
 }
 .avatar{
     margin-right: 1vw;
@@ -716,7 +719,7 @@ html{
     width: 100%;
 }
 .container__feedback_user-text, .container__feedback_user-text h6{
-    font-size: 2.3vw;
+    font-size: 2.8vw;
 }
 
 
@@ -789,7 +792,7 @@ html{
     margin: 0 auto;
 }
 }
-
+/* Адаптация на очень маленькие телефоны */
 @media only screen and (min-width :100px) and (max-width:379px){
     /* Общее */
     .section{
@@ -818,7 +821,7 @@ html{
     /* Шапка */
 
 .header{
-    width: 90%;
+    width: 100%;
     display: block;
 }
 .header__logo{
@@ -828,7 +831,8 @@ html{
 .header__menu-list{
     text-align: center;
     width: 100%;
-    margin-bottom: 2vh;
+    margin-bottom: 12vw;
+    margin-top: 6vw;
     gap: 1vw;
     flex-wrap: nowrap;
     padding: 0;
@@ -838,13 +842,13 @@ html{
     text-align: center;
 }
 .header__button-link{
-    padding: 2vw;
-    font-size: 4vw;
+    padding: 3vw;
+    font-size: 5vw;
 }
 
 .list{
    margin: 0 auto;
-   font-size: 4.5vw;
+   font-size: 5vw;
 }
 
 
@@ -884,11 +888,15 @@ html{
 /* Секция ценников */
 .container__price_table{
     font-size: 4.5vw;
+    margin-top: 10vw;
 }
 
 
 
 /* секция оценок */
+.section{
+    margin-top: 15vw;
+}
 
 .container__feedback_user{
     height: 37vw;
