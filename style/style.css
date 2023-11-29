@@ -424,6 +424,7 @@ html{
     border: 1px solid var(--Color-button-head-buy);
     box-shadow: var(--color-black) 0px 0px 4px -1px;
     margin-bottom: 1vh;
+    font-size: 1vw;
 }
 .container__buy_form-input:hover{
     outline: 1px solid var(--Color-button-head-buy);
@@ -442,6 +443,7 @@ html{
     border-radius: 1vw;
     border: 1px solid var(--color-standart);
     transition: all 0.2s;
+    font-size: 1vw;
 }
 .container__buy_form-button:hover{
     border: 1px solid var(--Color-shadow-table);
@@ -792,7 +794,7 @@ html{
     margin: 0 auto;
 }
 }
-/* Адаптация на очень маленькие телефоны */
+/* Маленькие телефоны /смартфоны */
 @media only screen and (min-width :100px) and (max-width:379px){
     /* Общее */
     .section{
