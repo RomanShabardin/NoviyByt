@@ -9,7 +9,7 @@ html{
     --color-standart:#7da5bc;
     --Color-bel:#fff;
     --Color-shedow:#d8d8d8;
-    --Color-box-buy:rgb(64, 98, 137);
+    --Color-box-buy:#406289;
     --Color-button-head-buy:#83b4d0;
     --Color-shadow-table:#3a4c58;
     --Color-green:#43c020;
@@ -32,6 +32,9 @@ html{
 .list__link:hover{
     cursor:pointer;
     color: var(--color-standart);
+}
+.list__link:active{
+    color: var(--Color-box-buy);
 }
 
 .list__link{
@@ -422,21 +425,18 @@ html{
     width: 100%;
     border-radius: 1vw;
     border: 1px solid var(--Color-button-head-buy);
-    box-shadow: var(--color-black) 0px 0px 4px -1px;
+    background-color: var(--Color-bel);
     margin-bottom: 1vh;
     font-size: 1vw;
 }
 .container__buy_form-input:hover{
     outline: 1px solid var(--Color-button-head-buy);
-    box-shadow: var(--Color-button-head-buy) 0px 0px 4px 1px;
 }
 .container__buy_form-input:focus{
     outline: 1px solid var(--Color-button-head-buy);
-    box-shadow: var(--Color-button-head-buy) 0px 0px 4px 1px;
 }
 .container__buy_form-input:active{
-    outline: 1px solid var(--Color-button-head-buy);
-    box-shadow: var(--Color-button-head-buy)d 0px 0px 4px 1px;
+    outline: 1px solid var(--Color-shadow-table);
 }
 .container__buy_form-button{
     padding: 1vw;
@@ -444,18 +444,17 @@ html{
     border: 1px solid var(--color-standart);
     transition: all 0.2s;
     font-size: 1vw;
+    background-color: var(--Color-bel);
 }
 .container__buy_form-button:hover{
     border: 1px solid var(--Color-shadow-table);
     background-color: var(--color-standart);
     color: var(--Color-bel);
-    box-shadow: var(--color-black) 0px 0px 4px -1px;
 }
 .container__buy_form-button:active{
     border: 1px solid var(--Color-shadow-table);
     background-color: var(--Color-shadow-table);
     color: var(--Color-bel);
-    box-shadow: var(--color-black) 0px 0px 4px -1px;
 }
 .container__buy_form{
     width: 50%;
